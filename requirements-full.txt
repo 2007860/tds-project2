@@ -1,0 +1,10 @@
+# Full requirements with data processing libraries
+# Install these AFTER minimal requirements if needed
+pandas
+numpy
+pdfplumber
+openpyxl
+matplotlib
+plotly
+seaborn
+pillow
