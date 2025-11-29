@@ -23,7 +23,7 @@ app = FastAPI(title="LLM Quiz Solver API")
 class QuizRequest(BaseModel):
     email: str
     secret: str
-    url: str
+    url: str    
 
 @app.post("/quiz")
 async def handle_quiz(request: Request):

@@ -38,8 +38,8 @@ Server will start on: `http://localhost:8000`
 curl http://localhost:8000/health
 
 # API info
-curl http://localhost:8000/
-
+curl http://localhost:8000/    
+   
 # Test quiz endpoint
 curl -X POST http://localhost:8000/quiz \
   -H "Content-Type: application/json" \
